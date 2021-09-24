@@ -1,0 +1,8 @@
+async function func() {
+  let promise = new Promise((res, rej) => {
+    setTimeout(() => res("Resolved!"), 4000);
+  });
+  let result = await promise; // wait until the promise resolves
+  alert(result);
+}
+func();

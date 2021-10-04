@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="uff-8">
+    <title>user input form</title>
+</head>
+<body>
+    <h2></h2>
+    <form action="/action_page.php" >
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" name="fname" value="Firstname"><br><br>
+        <label for="lname">Last name: </label>
+        <input type="text" id="lname" name="lname" value="Lastname"><br><br>
+
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="mail id" value="Enter your email"><br><br>
+
+        <label for="pin">PIN:</label>
+        <input type="text" id="pin" name="pin" maxlength="4" size="4"><br><br>
+        </label> 
+
+        <label>phone:</label>
+        <input type="text" name="country code" placeholder="country code" value="+91" size="2">  
+        <input type="tel" name="phone" size="25" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890"> 
+        <br><br>
+        <label for="datemax">Max</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+        <label for="datemin">Min</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+        <label for="files">Upload Resume: </label>
+        <input type="file" id="files" name="resume" value="Choose File"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </body>
+    </html>
